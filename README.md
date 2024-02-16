@@ -1,3 +1,3 @@
-# Докеризация приложения
-
-Перед тем как приступить к выполнению проектной работы разместите в репозитории исходный код фронтенд и бэкенд частей сервиса КупиПодариДай, реализованного вами ранее. 
+IP: 158.160.136.158
+Frontend: kpd.danbka-taranbka.nomoredomainswork.ru
+Backend: api.kpd.danbka-taranbka.nomoredomainswork.ru
