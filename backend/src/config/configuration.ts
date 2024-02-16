@@ -1,7 +1,7 @@
 import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 
 export default () => ({
-  port: parseInt(process.env.PORT, 10) || 3000,
+  port: parseInt(process.env.PORT, 10) || 3003,
   jwt_secret: process.env.JWT_SECRET || 'some-super-secret-key',
   database: {
     port: parseInt(process.env.POSTGRES_PORT, 10) || 5432,
