@@ -1,6 +1,6 @@
 FROM node:16-alpine as builder
 WORKDIR /app
-COPY package*.json .
+COPY package*.json ./
 RUN npm i --omit=dev --no-audit --no-fund
 COPY . .
 RUN npm run build

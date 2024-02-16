@@ -8,10 +8,7 @@ services:
       dockerfile: Dockerfile
     image: backend
     ports:
-      - 4000:3000
-      - 4001:3001
-      - 4002:3002
-      - 4003:3003
+      - 4000:3003
     env_file:
       - .env
     depends_on:
